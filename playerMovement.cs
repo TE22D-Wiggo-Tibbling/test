@@ -9,17 +9,13 @@ public class playerMovement : MonoBehaviour
     [SerializeField]
     float speed = 3;
 
-    [SerializeField]
-    float jumpforce = 100;
+ 
 
-    [SerializeField]
-    Transform groundCheck;
 
-    [SerializeField]
-    float groundRadius = 0.4f;
 
-    [SerializeField]
-    LayerMask groundLayer;
+  
+
+    
 
     [SerializeField] 
     float health = 3.0f;
@@ -27,7 +23,7 @@ public class playerMovement : MonoBehaviour
       [SerializeField]
     Transform slag;
 
-    bool mayJump = true;
+    
 
 
     // Start is called before the first frame update
@@ -84,6 +80,6 @@ public class playerMovement : MonoBehaviour
 
     // }
 
-    private Vector3 MakeGroundcheckSize() => new Vector3(0.45f, groundRadius);
+
 
 }

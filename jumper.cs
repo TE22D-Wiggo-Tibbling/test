@@ -53,5 +53,5 @@ public class jumper : MonoBehaviour
       
     }
 
-     private Vector3 MakeGroundcheckSize() => new Vector3(100.0f 100.0f);
+     private Vector3 MakeGroundcheckSize() => new Vector3(groundRadius, groundRadius);
 }
